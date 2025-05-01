@@ -13,6 +13,7 @@ https://learn.microsoft.com/en-us/cli/azure/pipelines?view=azure-cli-latest
 
 # exercise
 1. Automated release
+
 We want to trigger a release pipeline using Azure cli. 
 
 Before running the pipeline, it is necessary to be logged. 
@@ -26,11 +27,19 @@ Comment on what you are looking for, what the code means.
 We are looking for an approach, not runable code. 
 
 2. Let us talk about authentication
+
 The classic type of authentication is token-based authentication. 
 What kind of challenges / issues / security concerns would that pose (assuming a self-hosted Windows agent). 
+
 What are the alternatives?
 
 Hint: 
 MS documentation with supported options
 https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agent-authentication-options?view=azure-devops
+
+3. Bonus questions
+
+What type of GHA would you create in order to streamline CI/CD for cloud builds in our organization?
+
+Assuming we have different projects, we do not want everyone to have access to everything, and the projects have different release targets.
 
