@@ -18,7 +18,7 @@ We want to trigger a release pipeline using Azure cli.
 
 Before running the pipeline, it is necessary to be logged. 
 For that purpose, if we use token-based authentication, we can run a command like
-`echo  $aztoken | az devops login --organization https://dev.azure.com/iointeractive/`
+`echo  $aztoken | az devops login --organization https://dev.azure.com/ourorg/`
 
 The command starts with: `az pipelines release create`
 
